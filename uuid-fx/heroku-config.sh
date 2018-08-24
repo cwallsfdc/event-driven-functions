@@ -2,6 +2,7 @@ heroku buildpacks:add -i 1 -a damp-wildwood-81394 https://github.com/lstoll/hero
 heroku buildpacks:add -a damp-wildwood-81394 https://github.com/heroku/heroku-buildpack-nodejs
 
 heroku config:set \
+  APP_BASE=uuid-fx \
   SALESFORCE_USERNAME=chris@event-fx-dev.com \
   SALESFORCE_PASSWORD=eventdriven1 \
   VERBOSE=true \
