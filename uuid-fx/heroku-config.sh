@@ -3,7 +3,9 @@ heroku buildpacks:add -a damp-wildwood-81394 https://github.com/heroku/heroku-bu
 
 heroku config:set \
   APP_BASE=uuid-fx \
-  SALESFORCE_USERNAME=chris@event-fx-dev.com \
+  SALESFORCE_ACCESS_TOKEN=00DL00000061k1z!ARUAQPKCPuTgWFcM_Um_g4LVp.ijzWmSMQpynUdFQTI0PhkxyBLhUaylgIx02RbrZA7pOJTG5c2hvZxXSS.gCsjs3U2tpE39 \
+  SALESFORCE_INSTANCE_URL=https://app-speed-745-dev-ed.cs8.my.salesforce.com \
+  SALESFORCE_USERNAME=test-j7blajfbxxx5@example.com \
   SALESFORCE_PASSWORD=eventdriven1 \
   VERBOSE=true \
   PLUGIN_NAMES=invoke-functions \
