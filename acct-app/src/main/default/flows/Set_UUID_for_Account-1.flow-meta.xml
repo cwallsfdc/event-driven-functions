@@ -22,7 +22,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>mars.hall@salesforce.com</stringValue>
+                <stringValue>cwall@salesforce.com</stringValue>
             </value>
         </inputParameters>
     </actionCalls>
@@ -48,7 +48,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>mars.hall@salesforce.com</stringValue>
+                <stringValue>cwall@salesforce.com</stringValue>
             </value>
         </inputParameters>
     </actionCalls>
@@ -348,7 +348,7 @@
     <textTemplates>
         <description>text template for when multiple records are records found</description>
         <name>multipleRecordsFoundTextTemplate</name>
-        <text>Hello {!OrganizationName} Admin, 
+        <text>Hello {!OrganizationName} Admin,
 
 The Set UUID for Account process is configured to start when a Heroku Fn Generate UUID Return platform event message occurs. A Heroku Fn Generate UUID Return message occurred, but the process didn't start because multiple records in your org match the values specified in the process's Object node.
 
@@ -357,13 +357,13 @@ Context Id: {!myVariable_myEvent.Context_Id__c}
 
 To fix this issue, adjust the matching filters in the process's Object node.
 
-Thank you, 
+Thank you,
 Salesforce Process Automation</text>
     </textTemplates>
     <textTemplates>
         <description>text template for no records found</description>
         <name>noRecordsFoundTextTemplate</name>
-        <text>Hello {!OrganizationName} Admin, 
+        <text>Hello {!OrganizationName} Admin,
 
 The Set UUID for Account process is configured to start when a Heroku Fn Generate UUID Return platform event message occurs. A Heroku Fn Generate UUID Return message occurred, but the process didn't start because no records in your org match the values specified in the process's Object node.
 
@@ -372,7 +372,7 @@ Context Id: {!myVariable_myEvent.Context_Id__c}
 
 To fix this issue, adjust the matching filters in the process's Object node.
 
-Thank you, 
+Thank you,
 Salesforce Process Automation</text>
     </textTemplates>
     <variables>
