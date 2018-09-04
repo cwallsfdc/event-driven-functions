@@ -1,7 +1,7 @@
 {
   "packageDirectories": [
     {
-      "path": "acct-app",
+      "path": "src",
       "default": true
     }
   ],
